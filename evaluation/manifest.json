@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-09",
+  "model": "Astra Light",
+  "model_label_source": "User-provided run label",
+  "same_inherited_model_and_reasoning": true,
+  "generation_budget_per_arm": {
+    "max_tool_invocations": 25,
+    "max_minutes": 15
+  },
+  "xcode": "27.2 (27B52)",
+  "runtime": "iOS 27.2",
+  "devices": [
+    "iPhone 18 Pro",
+    "iPhone Duo"
+  ],
+  "rounds": 2,
+  "build_results": {
+    "round-1/baseline": "success",
+    "round-1/with-skill": "success",
+    "baseline": "success",
+    "with-skill": "success"
+  },
+  "images": {
+    "round-1/screenshots/baseline/duo-folded.png": {
+      "width": 2007,
+      "height": 2853,
+      "sha256": "8dc87191ca3734902ffa3466dcef7c6388044caa18a65a3fa753c3dd04671850"
+    },
+    "round-1/screenshots/baseline/duo-open.png": {
+      "width": 2853,
+      "height": 2007,
+      "sha256": "518767e2d7b4f6bf73cff45a87c359bd657693e9998a8cc2a0431ae45ca7fa7e"
+    },
+    "round-1/screenshots/baseline/duo-outer.png": {
+      "width": 1398,
+      "height": 2034,
+      "sha256": "85450d530fcbd9bfe595dcf0188193715863488181a8a97423ce973ad6def725"
+    },
+    "round-1/screenshots/baseline/iphone.png": {
+      "width": 1206,
+      "height": 2622,
+      "sha256": "f1ec290e5eb4e83068a3b7916d31b7fee53354615d294518a31b1cc739225b0a"
+    },
+    "round-1/screenshots/with-skill/duo-folded.png": {
+      "width": 2007,
+      "height": 2853,
+      "sha256": "4778571c6ca4c45e4f05ea83fae41c1ae27d3a4bbd6840b2250466b2bc7b6ebe"
+    },
+    "round-1/screenshots/with-skill/duo-open.png": {
+      "width": 2853,
+      "height": 2007,
+      "sha256": "5baed517bd9651cc1e3c769ffb6600ee6c7fcc0cc4ea96f00c87e88864960a78"
+    },
+    "round-1/screenshots/with-skill/duo-outer.png": {
+      "width": 1398,
+      "height": 2034,
+      "sha256": "37ca976fa4d54ef3a1e55ed9eeff647b55104e9b7747450d91a5de357745c793"
+    },
+    "round-1/screenshots/with-skill/iphone.png": {
+      "width": 1206,
+      "height": 2622,
+      "sha256": "b32465ff3c609f45a888304a87dafbefe662d81ab58f93dbead3ac6f13ce62f8"
+    },
+    "screenshots/baseline/duo-folded.png": {
+      "width": 2007,
+      "height": 2853,
+      "sha256": "c33448099f8f3a13998908651c59288bbb63e229ccee4d722ba795b522812d46"
+    },
+    "screenshots/baseline/duo-open.png": {
+      "width": 2853,
+      "height": 2007,
+      "sha256": "f1a1719c3b925bc82c51720a839f87e01fa33fb6d9e85598c2edf0dbf2944be6"
+    },
+    "screenshots/baseline/duo-outer.png": {
+      "width": 1398,
+      "height": 2034,
+      "sha256": "5a8576aacbbbae2e6eb7cd88bc7bff720fc2c63752bdd91290c611bd906b81fe"
+    },
+    "screenshots/baseline/iphone.png": {
+      "width": 1206,
+      "height": 2622,
+      "sha256": "d26b3210c1b10d4fcd893161442cabcc0c43a91d8a54bdd66a4d5ba622dcc883"
+    },
+    "screenshots/with-skill/duo-folded.png": {
+      "width": 2007,
+      "height": 2853,
+      "sha256": "fd86c43a18bc403e83c004c58161cbb2e142f65c51281ed77849d02464c8a56e"
+    },
+    "screenshots/with-skill/duo-open.png": {
+      "width": 2853,
+      "height": 2007,
+      "sha256": "75e6a1cb41d7f31ea91609211686d6af835c3f6a65aacf7b920ac547f868b1d2"
+    },
+    "screenshots/with-skill/duo-outer.png": {
+      "width": 1398,
+      "height": 2034,
+      "sha256": "081fbae51be450a9fc37331d092cef55b95bdb2e97f8fdb53f74c5dbf2c1b15b"
+    },
+    "screenshots/with-skill/iphone.png": {
+      "width": 1206,
+      "height": 2622,
+      "sha256": "b40447a07ea7c6011bfdcfe37450eb5a27a1f7ee771e4fe03f09d96db6838f39"
+    }
+  },
+  "skill_sha256": {
+    "SKILL.md": "b5a305f52456ed438b4dc839aec96dbec4cbd074354766c6efcb0ad8b0bd54f1",
+    "references/composition.md": "428d8df08ddace130ca6583c4c5d977a2825ef66620389f83c318b421074d8e5",
+    "references/platform.md": "8560a0bc2d467b6aa6c2382d74adf11d09d41f9c295c5006e28e2293ca86ae56",
+    "references/sources.md": "864aa9150670105b371b629b53c38e5e1092f8d9096173f09faf547d252f6ab1"
+  }
+}
