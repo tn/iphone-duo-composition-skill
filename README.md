@@ -1,5 +1,7 @@
 # iPhone Duo Composition
 
+[View on skills.sh](https://skills.sh/tn/iphone-duo-composition-skill/iphone-duo-composition)
+
 A portable agent skill for turning iPhone Duo's space and folding capabilities into useful iOS experiences—while keeping ordinary iPhone screens familiar.
 
 Pair an instruction with its controls, a source with its draft, or a selection with its consequence. The skill helps choose when a second region improves the task and when one continuous surface is the better design.
@@ -11,6 +13,8 @@ npx skills add tn/iphone-duo-composition-skill --skill iphone-duo-composition
 ```
 
 The skill uses the standard `SKILL.md` format. It has no agent-specific metadata, tool integration, third-party library requirement, or dependency on another skill. You can also copy the [iphone-duo-composition](iphone-duo-composition/) folder into your agent's supported skills directory.
+
+Publication verified on November 9, 2026: the skills CLI discovers exactly one skill and installs it with all references. The skills.sh page is live.
 
 ## Use
 
